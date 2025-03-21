@@ -1,0 +1,61 @@
+.lmj-cart {
+    color: white;
+    background-color: var(--color-primary);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(27, 67, 50, 0.2);
+    margin: 20px;
+    position: sticky;
+    top: 2rem;
+    padding: 2rem;
+    border: none;
+}
+
+.lmj-cart-add-button {
+    margin: 8px 0;
+    padding: 8px 16px;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lmj-cart-toggle-button {
+    background: none;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--color-white);
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 1000;
+    background: var(--color-primary);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    box-shadow: var(--shadow-md);
+}
+
+.lmj-cart-toggle-button:hover {
+    background-color: var(--color-secondary);
+}
+
+.lmj-cart-closed {
+    padding: 32px;
+    width: 300px;
+}
+
+.lmj-cart-closed > button {
+    color: white;
+}

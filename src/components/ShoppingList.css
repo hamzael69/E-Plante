@@ -1,0 +1,18 @@
+.lmj-plant-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    width: 100%;
+}
+
+.lmj-shopping-list {
+    width: 100%;
+}
+
+.category-title {
+    font-size: 2rem;
+    margin: 2rem 0;
+    text-align: left;
+}

@@ -1,0 +1,29 @@
+.lmj-banner {
+    color: var(--color-text);
+    text-align: center;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: none;
+}
+
+.lmj-title {
+    padding-left: 32px;
+    font-weight: 600;
+    font-size: 28px;
+    color: var(--color-text);
+}
+
+.lmj-logo {
+    height: 50px;
+    width: 50px;
+    transition: transform 0.3s ease;
+}
+
+.lmj-logo:hover {
+    transform: scale(1.1);
+}
