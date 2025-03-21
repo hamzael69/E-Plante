@@ -6,3 +6,10 @@
     margin: 0 auto;
     padding: 0 2rem;
 }
+
+@media (max-width: 900px) {
+    .lmj-layout-inner {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+    }
+}

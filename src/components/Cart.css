@@ -59,3 +59,19 @@
 .lmj-cart-closed > button {
     color: white;
 }
+
+@media (max-width: 900px) {
+    .lmj-cart {
+        width: 100%;
+        margin: 10px 0;
+        position: relative;
+        top: 0;
+    }
+
+    .lmj-cart-toggle-button {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        padding: 0.8rem 1.5rem;
+    }
+}

@@ -27,3 +27,19 @@
 .lmj-logo:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+    .lmj-banner {
+        padding: 16px;
+    }
+
+    .lmj-title {
+        font-size: 24px;
+        padding-left: 16px;
+    }
+
+    .lmj-logo {
+        height: 40px;
+        width: 40px;
+    }
+}

@@ -42,3 +42,19 @@
 .lmj-categories button:hover {
     background-color: var(--color-hover);
 }
+
+@media (max-width: 768px) {
+    .lmj-categories {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .lmj-categories-select {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    .lmj-categories button {
+        width: 100%;
+    }
+}

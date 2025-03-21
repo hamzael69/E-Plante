@@ -24,3 +24,14 @@
 .lmj-footer input::placeholder {
     color: var(--color-accent);
 }
+
+@media (max-width: 768px) {
+    .lmj-footer {
+        padding: 20px;
+    }
+
+    .lmj-footer input {
+        width: 90%;
+        max-width: 300px;
+    }
+}
